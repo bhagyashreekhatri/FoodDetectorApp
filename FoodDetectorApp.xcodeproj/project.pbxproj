@@ -29,11 +29,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BC67DECA6E68EBE213975A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		744DBAEE2F4844950017B387 = {
 			isa = PBXGroup;
 			children = (
 				744DBAF92F4844960017B387 /* FoodDetectorApp */,
 				744DBAF82F4844960017B387 /* Products */,
+				5BC67DECA6E68EBE213975A9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,8 +72,6 @@
 				744DBAF92F4844960017B387 /* FoodDetectorApp */,
 			);
 			name = FoodDetectorApp;
-			packageProductDependencies = (
-			);
 			productName = FoodDetectorApp;
 			productReference = 744DBAF72F4844960017B387 /* FoodDetectorApp.app */;
 			productType = "com.apple.product-type.application";
@@ -248,8 +254,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to identify your food.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo library access to analyze food pictures.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -290,8 +300,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to identify your food.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo library access to analyze food pictures.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
