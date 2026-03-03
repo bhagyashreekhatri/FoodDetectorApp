@@ -29,19 +29,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5BC67DECA6E68EBE213975A9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		744DBAEE2F4844950017B387 = {
 			isa = PBXGroup;
 			children = (
 				744DBAF92F4844960017B387 /* FoodDetectorApp */,
 				744DBAF82F4844960017B387 /* Products */,
-				5BC67DECA6E68EBE213975A9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
