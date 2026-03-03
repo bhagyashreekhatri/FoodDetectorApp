@@ -45,6 +45,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         picker.sourceType = sourceType
         picker.allowsEditing = false
         picker.delegate = context.coordinator
+        print("")
         return picker
     }
 
