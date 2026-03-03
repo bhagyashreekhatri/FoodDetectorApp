@@ -4,6 +4,8 @@
 DerivedData/
 build/
 *.ipa
+*.xcarchive
+*.app
 *.dSYM.zip
 *.dSYM
 
@@ -17,3 +19,8 @@ Pods/
 # macOS
 .DS_Store
 *.swp
+
+# Fastlane generated files
+fastlane/report.xml
+fastlane/test_output/
+fastlane/screenshots/
