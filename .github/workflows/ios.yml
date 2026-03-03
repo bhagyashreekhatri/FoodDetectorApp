@@ -1,0 +1,22 @@
+name: iOS CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Fastlane + Formatter
+        run: |
+          brew update
+          brew install fastlane xcbeautify
+
+      - name: Run Fastlane Build
+        run: fastlane build
